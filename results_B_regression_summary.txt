@@ -1,0 +1,21 @@
+---Negative Binomial Regression Summary ---
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:             engagement   No. Observations:                  200
+Model:                            GLM   Df Residuals:                      195
+Model Family:        NegativeBinomial   Df Model:                            4
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -1914.1
+Date:                Thu, 23 Oct 2025   Deviance:                       640.83
+Time:                        20:24:36   Pearson chi2:                 1.26e+03
+No. Iterations:                    22   Pseudo R-squ. (CS):             0.7563
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                9.3018      0.158     58.812      0.000       8.992       9.612
+is_political            -3.3664      0.160    -21.050      0.000      -3.680      -3.053
+polarity                -0.4906      0.391     -1.256      0.209      -1.256       0.275
+subjectivity            -0.0476      0.279     -0.170      0.865      -0.595       0.500
+flesch_kincaid_grade     0.0604      0.011      5.417      0.000       0.039       0.082
+========================================================================================

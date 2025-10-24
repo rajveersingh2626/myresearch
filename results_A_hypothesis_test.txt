@@ -1,0 +1,17 @@
+--- stats by category ---
+category                     Entertainment    Political
+engagement           mean     17141.329917   995.805625
+                     median    5533.865000   117.000000
+                     std      36296.375358  3659.703642
+polarity             mean         0.117313     0.085758
+                     median       0.000000     0.069588
+                     std          0.220559     0.157676
+flesch_kincaid_grade mean         8.959379    14.913886
+                     median       8.979473    13.107081
+                     std          5.093595     7.996138
+
+---  Mann-Whitney U Test Results ---
+Median Engagement (Political):    117.00
+Median Engagement (Entertainment):5533.86
+P-value:     0.00000
+Cliff's Delta (Effect Size): -0.744

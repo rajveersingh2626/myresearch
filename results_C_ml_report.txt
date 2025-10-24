@@ -1,0 +1,34 @@
+--- report---
+               precision    recall  f1-score   support
+
+Entertainment       0.73      1.00      0.84        24
+    Political       1.00      0.44      0.61        16
+
+     accuracy                           0.78        40
+    macro avg       0.86      0.72      0.73        40
+ weighted avg       0.84      0.78      0.75        40
+
+
+--- Top 10 Keywords that predict the Political Category ---
+india       0.905329
+indian      0.771145
+modi        0.638113
+youth       0.597771
+bio         0.571708
+link        0.571708
+trump       0.541448
+pakistan    0.502174
+ai          0.498113
+social      0.427881
+
+--- Top 10 Keywords that predict the Entertainment Category ---
+fcreels      -0.853242
+swbreaking   -0.627247
+netflix      -0.476417
+trending     -0.444882
+hai          -0.439606
+mensxp       -0.435228
+season       -0.433494
+page         -0.428198
+reel         -0.418661
+love         -0.414146
